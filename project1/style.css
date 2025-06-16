@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+@media(max-width:600px){
+    body{
+    background-image: url(1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    }
+}
+
+.title{
+    margin-top: 10px;
+    background-color: rgb(65, 65, 158);
+    padding: 10px; ;
+
+}
+@media (max-width:600px){
+    .title{
+    background-color: pink;
+    }
+    
+}
+li{
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+ }
+li:hover{
+    color: beige;
+}
+ul{
+    display: inline;
+    margin-left:60%;
+}    
+h1{
+    display: inline;
+    
+}
+img{
+    height: 250px;
+    width: 300px;
+}
+input{
+    width: 600px;
+    height: 30px; 
+    margin-left: 400px;
+    margin-top: 40px; 
+    padding-left:10px;
+}
+nav{
+    display: inline;
+}
+
+.box1{
+    display: inline-block;
+    width: 300px;
+    height:auto ;
+    padding: 20px;
+    background-color: rgb(75, 75, 181);
+    margin: 80px; 
+}
+.box1 p{
+    text-align: justify;
+}
+.box2{
+    display: inline-block;
+    width: 300px;
+    height:auto ;
+    padding: 20px;
+    background-color: rgb(75, 75, 181);
+    margin: 80px; 
+}
+.box2 p{
+    text-align: justify;
+}    
+.box3{
+    display: inline-block;
+    width: 300px;
+    height:auto ;
+    padding: 20px;
+    background-color: rgb(75, 75, 181);
+    margin: 80px;
+}
+.box3 p{
+    text-align: justify;
+}
+.fixed{
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px ;
+    margin: 30px;
+    background-color: blanchedalmond;
+    
+}
+.fixed img{
+    padding:20px;
+
+}
+.footer{
+    background-color:rgb(65, 65, 158); 
+    padding: 10px;
+}
+p{
+    margin:30px ;
+    text-align: justify;
+}
+marquee{
+    background-color: rgb(25, 25, 81);
+    font-family: Goudy Stout ;
+    color: yellow;
+    padding: 10px;
+}
